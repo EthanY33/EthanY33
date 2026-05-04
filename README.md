@@ -2,28 +2,83 @@
   <img src="https://raw.githubusercontent.com/EthanY33/EthanY33/main/assets/studio-banner.webp" alt="goneIdle" width="100%">
 </p>
 
-# Ethan Yucetepe
+<h1 align="center">Ethan Yucetepe</h1>
 
-I run [goneIdle](https://goneidle.com), a one-person game studio. CS @ NJIT, graduating Dec 2026. I ship games and build the tools that ship them — the repos here are mostly the second kind.
+<p align="center">
+  I run <a href="https://goneidle.com"><b>goneIdle</b></a>, a one-person game studio.<br>
+  CS @ NJIT, graduating Dec 2026.
+</p>
 
-### Currently shipping
+<p align="center">
+  <a href="https://goneidle.com">goneidle.com</a>
+</p>
 
-<a href="https://goneidle.com/tidewane">
-  <img src="https://raw.githubusercontent.com/EthanY33/EthanY33/main/assets/tidewane-capsule.png" alt="TideWane v1.2.2 on Steam" width="460">
-</a>
+---
 
-**[TideWane](https://goneidle.com/tidewane)** v1.2.2 on Steam — deep-sea idle dungeon crawler.
+### Now shipping
+
+<table>
+<tr>
+<td width="55%">
+  <a href="https://goneidle.com/tidewane">
+    <img src="https://raw.githubusercontent.com/EthanY33/EthanY33/main/assets/tidewane-capsule.png" alt="TideWane">
+  </a>
+</td>
+<td width="45%" valign="middle">
+
+**[TideWane](https://goneidle.com/tidewane)** &nbsp;`v1.2.2`
+
+Deep-sea idle dungeon crawler.<br>
+Live on Steam — Windows + macOS.
+
+</td>
+</tr>
+</table>
+
+---
 
 ### Open source
 
-**[atelier](https://github.com/EthanY33/atelier)** — Claude Code plugin. 7 skills around a shared brand source of truth.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**[PrivacyPulse](https://github.com/EthanY33/PrivacyPulse)** — Chrome extension that surfaces what cookie banners are actually asking you to agree to.
+**[atelier](https://github.com/EthanY33/atelier)**<br>
+Claude Code plugin. 7 skills around a shared brand source of truth. Dogfooded daily on goneidle.com.
+
+</td>
+<td width="50%" valign="top">
+
+**[PrivacyPulse](https://github.com/EthanY33/PrivacyPulse)**<br>
+Chrome extension that surfaces what cookie banners are actually asking you to agree to.
+
+</td>
+</tr>
+</table>
 
 ### Ship-pipeline tooling
 
-**[trailer-tripwire](https://github.com/EthanY33/trailer-tripwire)** · **[copy-tripwire](https://github.com/EthanY33/copy-tripwire)** · **[screenshot-tripwire](https://github.com/EthanY33/screenshot-tripwire)** — catch AI-default tells in video, copy, and image assets before reviewers do.
+<sub>Catch AI-default tells before reviewers do.</sub>
 
-### Elsewhere
+<table>
+<tr>
+<td width="33%" valign="top">
 
-[goneidle.com](https://goneidle.com)
+**[trailer-tripwire](https://github.com/EthanY33/trailer-tripwire)**<br>
+<sub>For video.</sub>
+
+</td>
+<td width="33%" valign="top">
+
+**[copy-tripwire](https://github.com/EthanY33/copy-tripwire)**<br>
+<sub>For marketing copy.</sub>
+
+</td>
+<td width="33%" valign="top">
+
+**[screenshot-tripwire](https://github.com/EthanY33/screenshot-tripwire)**<br>
+<sub>For image assets.</sub>
+
+</td>
+</tr>
+</table>
