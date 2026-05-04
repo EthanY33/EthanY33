@@ -17,6 +17,10 @@
   <a href="https://www.linkedin.com/in/ethanyucetepe/">LinkedIn</a>
 </p>
 
+<p align="center">
+  <sub>Open to <b>SWE roles · new-grad, Dec 2026 cycle</b>. Best reached at the email above.</sub>
+</p>
+
 ---
 
 ### Shipped
