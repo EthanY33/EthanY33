@@ -1,6 +1,18 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EthanY33/EthanY33/main/assets/studio-banner.webp" alt="goneIdle" width="100%">
+</p>
+
 # Ethan Yucetepe
 
-I run [goneIdle](https://goneidle.com), a one-person game studio shipping [TideWane](https://goneidle.com/tidewane) (v1.2.2 on Steam). CS @ NJIT, graduating Dec 2026. I ship games and build the tools that ship them — the repos here are mostly the second kind.
+I run [goneIdle](https://goneidle.com), a one-person game studio. CS @ NJIT, graduating Dec 2026. I ship games and build the tools that ship them — the repos here are mostly the second kind.
+
+### Currently shipping
+
+<a href="https://goneidle.com/tidewane">
+  <img src="https://raw.githubusercontent.com/EthanY33/EthanY33/main/assets/tidewane-capsule.png" alt="TideWane v1.2.2 on Steam" width="460">
+</a>
+
+**[TideWane](https://goneidle.com/tidewane)** v1.2.2 on Steam — deep-sea idle dungeon crawler.
 
 ### Open source
 
