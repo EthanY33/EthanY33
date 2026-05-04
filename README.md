@@ -1,16 +1,17 @@
-## Hi there 👋
+# Ethan Yucetepe
 
-<!--
-**EthanY33/EthanY33** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+CS @ NJIT, Dec 2026. Solo dev under [goneIdle](https://goneidle.com), currently shipping [TideWane](https://goneidle.com/tidewane) on Steam.
 
-Here are some ideas to get you started:
+I ship games and build the tools that ship them — most of the repos here are the second kind.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Open source
+
+**[atelier](https://github.com/EthanY33/atelier)** — Claude Code plugin. 7 skills around a shared brand source of truth. Built for my own workflow, dogfooded on goneidle.com.
+
+**[trailer-tripwire](https://github.com/EthanY33/trailer-tripwire) · [copy-tripwire](https://github.com/EthanY33/copy-tripwire) · [screenshot-tripwire](https://github.com/EthanY33/screenshot-tripwire)** — pre-ship pattern checkers for video, copy, and image assets. Catch AI-default tells before reviewers do.
+
+**[PrivacyPulse](https://github.com/EthanY33/PrivacyPulse)** — Chrome extension that surfaces what cookie banners are actually asking you to agree to.
+
+### Elsewhere
+
+[goneidle.com](https://goneidle.com)
