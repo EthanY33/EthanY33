@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/EthanY33/EthanY33/main/assets/studio-banner.webp" alt="goneIdle" width="100%">
+  <img src="https://raw.githubusercontent.com/EthanY33/EthanY33/main/assets/logo.webp" alt="goneIdle" width="800">
 </p>
 
 <h1 align="center">Ethan Yucetepe</h1>
