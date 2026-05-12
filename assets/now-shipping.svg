@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 36" width="320" height="36" role="img" aria-label="Now shipping: TideWane v1.2.2 on Steam">
+  <defs>
+    <style>
+      .label { font: 600 10px ui-monospace, "SF Mono", "Geist Mono", Menlo, monospace; fill: #6b7280; letter-spacing: 0.16em; }
+      .value { font: 600 11px ui-sans-serif, system-ui, "Inter", "Geist", sans-serif; fill: #e5e7eb; letter-spacing: 0.02em; }
+      .ver   { font: 600 11px ui-monospace, "SF Mono", "Geist Mono", Menlo, monospace; fill: #5ad7ff; letter-spacing: 0.04em; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="319" height="35" rx="6" ry="6" fill="#0d1117" stroke="#1f2937" stroke-width="1"/>
+  <circle cx="14" cy="18" r="4" fill="#22c55e">
+    <animate attributeName="r" dur="2.4s" repeatCount="indefinite" values="3.6;5;3.6"/>
+    <animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" values="1;0.55;1"/>
+  </circle>
+  <circle cx="14" cy="18" r="4" fill="#22c55e" opacity="0.35">
+    <animate attributeName="r" dur="2.4s" repeatCount="indefinite" values="4;10;4"/>
+    <animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" values="0.4;0;0.4"/>
+  </circle>
+  <text x="28" y="15" class="label">NOW SHIPPING</text>
+  <text x="28" y="29" class="value">TideWane <tspan class="ver">v1.2.2</tspan> · Steam</text>
+</svg>

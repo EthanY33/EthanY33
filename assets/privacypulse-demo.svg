@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" width="600" height="220" role="img" aria-label="PrivacyPulse intercepts a cookie banner and reveals tracker counts before you click Accept">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .panel { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+      .meta { font: 10px ui-monospace, "SF Mono", "Geist Mono", Menlo, monospace; fill: #6b7280; letter-spacing: 0.12em; }
+      .title { font: 600 14px ui-sans-serif, system-ui, "Inter", sans-serif; fill: #e5e7eb; }
+      .body { font: 11px ui-sans-serif, system-ui, "Inter", sans-serif; fill: #9ca3af; }
+      .num { font: 700 22px ui-monospace, "SF Mono", "Geist Mono", Menlo, monospace; fill: #f87171; }
+      .num-sub { font: 9px ui-monospace, "SF Mono", "Geist Mono", Menlo, monospace; fill: #9ca3af; letter-spacing: 0.12em; }
+      .btn-accept { fill: #1f2937; stroke: #4b5563; }
+      .btn-reject { fill: #7f1d1d; stroke: #ef4444; }
+      .btn-text { font: 600 11px ui-sans-serif, system-ui, "Inter", sans-serif; fill: #e5e7eb; }
+      .accent { fill: #5ad7ff; }
+    </style>
+  </defs>
+  <rect class="bg" width="600" height="220"/>
+
+  <!-- Frame 1: original cookie banner (visible 0-3s) -->
+  <g opacity="0">
+    <animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.05;0.30;0.34;1" values="1;1;1;0;0"/>
+    <rect class="panel" x="20" y="20" width="560" height="180" rx="8"/>
+    <text class="meta" x="40" y="48">EXAMPLE.COM</text>
+    <text class="title" x="40" y="78">We value your privacy.</text>
+    <text class="body" x="40" y="102">We and our partners use cookies to enhance your experience.</text>
+    <rect class="btn-accept" x="40" y="140" width="130" height="36" rx="6"/>
+    <text class="btn-text" x="64" y="163">Customize</text>
+    <rect x="190" y="140" width="180" height="36" rx="6" fill="#5ad7ff"/>
+    <text x="220" y="163" font="600 11px ui-sans-serif, system-ui, sans-serif" fill="#0d1117" font-weight="700">Accept All Cookies</text>
+  </g>
+
+  <!-- Frame 2: PrivacyPulse intercept (visible 3-6s) -->
+  <g opacity="0">
+    <animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.34;0.38;0.62;0.66;1" values="0;0;1;1;0;0"/>
+    <rect class="panel" x="20" y="20" width="560" height="180" rx="8" stroke="#5ad7ff" stroke-width="1.5"/>
+    <text class="meta" x="40" y="44"><tspan class="accent">▸ PRIVACYPULSE</tspan>  ·  EXAMPLE.COM</text>
+    <text class="title" x="40" y="68">Before you click Accept All:</text>
+
+    <g transform="translate(40,86)">
+      <text class="num" x="0" y="22">847</text>
+      <text class="num-sub" x="0" y="40">TRACKERS</text>
+    </g>
+    <g transform="translate(140,86)">
+      <text class="num" x="0" y="22">23</text>
+      <text class="num-sub" x="0" y="40">AD PARTNERS</text>
+    </g>
+    <g transform="translate(260,86)">
+      <text class="num" x="0" y="22" fill="#fbbf24">9</text>
+      <text class="num-sub" x="0" y="40">COUNTRIES</text>
+    </g>
+    <g transform="translate(360,86)">
+      <text class="num" x="0" y="22" fill="#fbbf24">∞</text>
+      <text class="num-sub" x="0" y="40">RETENTION</text>
+    </g>
+
+    <rect class="btn-reject" x="40" y="160" width="130" height="32" rx="6"/>
+    <text class="btn-text" x="68" y="181">Reject All</text>
+    <rect class="btn-accept" x="190" y="160" width="180" height="32" rx="6"/>
+    <text class="btn-text" x="220" y="181">Accept Necessary Only</text>
+  </g>
+
+  <!-- Frame 3: blocked confirmation (visible 6-9s) -->
+  <g opacity="0">
+    <animate attributeName="opacity" dur="9s" repeatCount="indefinite" keyTimes="0;0.66;0.70;0.95;1" values="0;0;1;1;0"/>
+    <rect class="panel" x="20" y="20" width="560" height="180" rx="8" stroke="#22c55e" stroke-width="1.5"/>
+    <text class="meta" x="40" y="48"><tspan fill="#22c55e">▸ BLOCKED</tspan>  ·  EXAMPLE.COM</text>
+    <text class="title" x="40" y="100">847 trackers blocked.</text>
+    <text class="body" x="40" y="124">You agreed to nothing you didn't see.</text>
+  </g>
+</svg>
