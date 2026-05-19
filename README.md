@@ -1,6 +1,9 @@
 <p align="center">
   <a href="https://goneidle.com">
-    <img src="https://raw.githubusercontent.com/EthanY33/EthanY33/main/assets/hero.webp" alt="goneIdle studio reel" width="900">
+    <video src="https://raw.githubusercontent.com/EthanY33/EthanY33/main/assets/one-semester-left.mp4"
+           width="900" controls muted autoplay loop playsinline>
+      <img src="https://raw.githubusercontent.com/EthanY33/EthanY33/main/assets/hero.webp" alt="goneIdle studio reel" width="900">
+    </video>
   </a>
 </p>
 
@@ -44,9 +47,9 @@
 </td>
 <td width="45%" valign="middle">
 
-**[TideWane](https://goneidle.com/tidewane)** &nbsp;`v1.2.2`
+**[TideWane](https://goneidle.com/tidewane)** &nbsp;`v1.2.3`
 
-Deep-sea idle dungeon crawler. Live on Steam (Windows + macOS).
+Deep-sea idle dungeon crawler. Live on Steam (Windows · Linux · macOS).
 
 <sub>3-layer prestige economy · 25-boss progression · Canvas 2D game loop · procedural Web Audio synthesis · native IPC bridge to a Godot WebView host · Steam achievements + cloud saves.</sub>
 
@@ -106,6 +109,20 @@ Intercepts cookie consent banners and surfaces what you're actually agreeing to 
 
 **Pre-ship pattern checkers** &nbsp;<sub>JS · CLI</sub><br>
 [trailer-tripwire](https://github.com/EthanY33/trailer-tripwire) (video) · [copy-tripwire](https://github.com/EthanY33/copy-tripwire) (text) · [screenshot-tripwire](https://github.com/EthanY33/screenshot-tripwire) (images). Catch measurable AI-default tells before reviewers do.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[wirefan](https://github.com/EthanY33/wirefan)** &nbsp;<sub>Go · WebSockets</sub><br>
+Single-binary WebSocket fanout server. Channel-based pub/sub, HMAC-bound tokens, goroutine-leak invariant proven under 1000-connection churn. Zero runtime deps.
+
+</td>
+<td width="50%" valign="top">
+
+**[ethan-yucetepe-resume-builder](https://github.com/EthanY33/ethan-yucetepe-resume-builder)** &nbsp;<sub>JS · Playwright</sub><br>
+Resume builder that renders HTML → PDF via Playwright. Source-of-truth `resume.json`, deterministic output.
 
 </td>
 </tr>
