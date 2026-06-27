@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 36" width="320" height="36" role="img" aria-label="Now shipping: TideWane v1.2.2 on Steam">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 36" width="320" height="36" role="img" aria-label="Now shipping: TideWane v1.2.3 on Steam">
   <defs>
     <style>
       .label { font: 600 10px ui-monospace, "SF Mono", "Geist Mono", Menlo, monospace; fill: #6b7280; letter-spacing: 0.16em; }
@@ -16,5 +16,5 @@
     <animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" values="0.4;0;0.4"/>
   </circle>
   <text x="28" y="15" class="label">NOW SHIPPING</text>
-  <text x="28" y="29" class="value">TideWane <tspan class="ver">v1.2.2</tspan> · Steam</text>
+  <text x="28" y="29" class="value">TideWane <tspan class="ver">v1.2.3</tspan> · Steam</text>
 </svg>
