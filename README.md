@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://goneidle.com">
-    <video src="https://raw.githubusercontent.com/EthanY33/EthanY33/chore/profile-overhaul/assets/hero.mp4"
+    <video src="https://raw.githubusercontent.com/EthanY33/EthanY33/main/assets/hero.mp4"
            width="900" muted autoplay loop playsinline>
       <img src="assets/hero.webp" alt="Ethan Yucetepe" width="900">
     </video>
@@ -110,7 +110,7 @@ I run **[goneIdle](https://goneidle.com)**, a one-person game studio. I take pro
 
 <p align="center">
   <a href="https://goneidle.com">
-    <video src="https://raw.githubusercontent.com/EthanY33/EthanY33/chore/profile-overhaul/assets/one-semester-left.mp4"
+    <video src="https://raw.githubusercontent.com/EthanY33/EthanY33/main/assets/one-semester-left.mp4"
            width="900" muted autoplay loop playsinline>
       <img src="assets/studio-banner.webp" alt="goneIdle studio reel" width="900">
     </video>
