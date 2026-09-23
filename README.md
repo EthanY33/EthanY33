@@ -21,7 +21,7 @@
   &nbsp;·&nbsp;
   <a href="mailto:ethanyucetepe@gmail.com">ethanyucetepe@gmail.com</a>
   &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/ethanyucetepe/">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/ethan-yucetepe/">LinkedIn</a>
 </p>
 
 <p align="center">
@@ -64,8 +64,8 @@ Full-stack job-application copilot. The Claude API drafts every part of an appli
     <img src="assets/atelier-demo.svg" alt="atelier in action" width="100%">
   </a>
 
-**[atelier](https://github.com/EthanY33/atelier)** &nbsp;<sub>JS · Claude Agent SDK</sub><br>
-Claude Code plugin. Seven composable skills on a shared brand source of truth. Dogfooded daily; every page of goneidle.com shipped through it.
+**[atelier](https://github.com/EthanY33/atelier)** &nbsp;<sub>JS · Claude Code plugin</sub><br>
+Claude Code plugin, v1.0.0. Eight composable skills on a shared brand source of truth, plus a CLI and a GitHub Action. Dogfooded on goneidle.com.
 
 </td>
 <td width="50%" valign="top">
