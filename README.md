@@ -42,7 +42,7 @@
   </a>
 
 **[wirefan](https://github.com/EthanY33/wirefan)** &nbsp;<sub>Go · WebSockets</sub><br>
-Single-binary WebSocket fanout server. Channel pub/sub, HMAC-bound subscribe tokens, zero runtime dependencies, and a goroutine-leak invariant proven under 1000-connection churn.
+Single-binary WebSocket fanout server. Channel pub/sub, HMAC-bound subscribe tokens, zero runtime dependencies, and a goroutine-leak invariant proven under 1000-connection churn. v1.0.1, [live demo](https://wirefan.ethanyucetepe.dev).
 
 </td>
 <td width="50%" valign="top">
