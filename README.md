@@ -51,7 +51,7 @@ Single-binary WebSocket fanout server. Channel pub/sub, HMAC-bound subscribe tok
   </a>
 
 **[jobcopilot](https://github.com/EthanY33/jobcopilot)** &nbsp;<sub>Next.js · Supabase · Claude API</sub><br>
-Full-stack job-application copilot. The Claude API drafts every part of an application; you review and ship. 7-stage kanban tracker, resume-variant generator, OAuth.
+Full-stack job-application copilot, v1.0.0. The Claude API drafts every part of an application; you review and ship. 7-stage kanban tracker, resume-variant generator, OAuth.
 
 </td>
 </tr>
@@ -65,7 +65,7 @@ Full-stack job-application copilot. The Claude API drafts every part of an appli
   </a>
 
 **[atelier](https://github.com/EthanY33/atelier)** &nbsp;<sub>JS · Claude Code plugin</sub><br>
-Claude Code plugin, v1.0.0. Eight composable skills on a shared brand source of truth, plus a CLI and a GitHub Action. Dogfooded on goneidle.com.
+Claude Code plugin, v1.1.0. Eight composable skills on a shared brand source of truth, plus a CLI and a GitHub Action. Dogfooded on goneidle.com.
 
 </td>
 <td width="50%" valign="top">
@@ -74,7 +74,7 @@ Claude Code plugin, v1.0.0. Eight composable skills on a shared brand source of 
   </a>
 
 **[news-bias-analyzer](https://github.com/EthanY33/news-bias-analyzer)** &nbsp;<sub>Python · Gemini</sub><br>
-CLI that compares how multiple outlets frame the same story, with sentiment and framing analysis across sources.
+CLI that compares how multiple outlets frame the same story, with sentiment and framing analysis across sources. v1.0.0.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ Intercepts cookie consent banners and surfaces what you are actually agreeing to
   </a>
 
 **Pre-ship pattern checkers** &nbsp;<sub>JS · CLI</sub><br>
-[trailer-tripwire](https://github.com/EthanY33/trailer-tripwire) (video), [copy-tripwire](https://github.com/EthanY33/copy-tripwire) (text), [screenshot-tripwire](https://github.com/EthanY33/screenshot-tripwire) (images). Catch measurable AI-default tells before reviewers do.
+[trailer-tripwire](https://github.com/EthanY33/trailer-tripwire) v1.0.0 (video), [copy-tripwire](https://github.com/EthanY33/copy-tripwire) (text), [screenshot-tripwire](https://github.com/EthanY33/screenshot-tripwire) (images). Catch measurable AI-default tells before reviewers do.
 
 </td>
 </tr>
