@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 440" width="1600" height="440" role="img" aria-label="Animated diagram: messages fan out from Ethan to wirefan, TideWane, Scrappy AI, atelier, Thryv and jobcopilot">
+<style>
+  .bg { fill: #08080d }
+  .grid { stroke: #22d3ee; stroke-opacity: .05 }
+  .wire { fill: none; stroke: #22d3ee; stroke-opacity: .22; stroke-width: 1.5 }
+  .msg { fill: #7ce5f5 }
+  .trail { fill: #22d3ee }
+  .pulse { fill: none; stroke: #22d3ee; stroke-width: 1.5 }
+  .core { fill: #08080d; stroke: #22d3ee; stroke-width: 2 }
+  .ring { fill: none; stroke: #7ce5f5; stroke-width: 1.5 }
+  .node { fill: #22d3ee }
+  .hubtext { fill: #e6faff; font: 600 22px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .04em }
+  .label { fill: #22d3ee; fill-opacity: .7; font: 500 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .12em }
+  .name { fill: #e6faff; font: 600 22px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace }
+  .sub { fill: #8fb3bd; font: 400 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace }
+  @media (prefers-color-scheme: light) {
+    .bg { fill: #f6fbfc }
+    .grid { stroke: #0e7490; stroke-opacity: .06 }
+    .wire { stroke: #0e7490; stroke-opacity: .25 }
+    .msg { fill: #0891b2 } .trail { fill: #22d3ee }
+    .pulse { stroke: #0891b2 } .core { fill: #f6fbfc; stroke: #0891b2 }
+    .ring { stroke: #0891b2 } .node { fill: #0891b2 }
+    .hubtext, .name { fill: #0b2530 } .label { fill: #0e7490 } .sub { fill: #4b6b75 }
+  }
+</style>
+<rect class="bg" width="1600" height="440" rx="14"/>
+<g class="grid"><line x1="0" y1="0" x2="0" y2="440"/><line x1="55" y1="0" x2="55" y2="440"/><line x1="110" y1="0" x2="110" y2="440"/><line x1="165" y1="0" x2="165" y2="440"/><line x1="220" y1="0" x2="220" y2="440"/><line x1="275" y1="0" x2="275" y2="440"/><line x1="330" y1="0" x2="330" y2="440"/><line x1="385" y1="0" x2="385" y2="440"/><line x1="440" y1="0" x2="440" y2="440"/><line x1="495" y1="0" x2="495" y2="440"/><line x1="550" y1="0" x2="550" y2="440"/><line x1="605" y1="0" x2="605" y2="440"/><line x1="660" y1="0" x2="660" y2="440"/><line x1="715" y1="0" x2="715" y2="440"/><line x1="770" y1="0" x2="770" y2="440"/><line x1="825" y1="0" x2="825" y2="440"/><line x1="880" y1="0" x2="880" y2="440"/><line x1="935" y1="0" x2="935" y2="440"/><line x1="990" y1="0" x2="990" y2="440"/><line x1="1045" y1="0" x2="1045" y2="440"/><line x1="1100" y1="0" x2="1100" y2="440"/><line x1="1155" y1="0" x2="1155" y2="440"/><line x1="1210" y1="0" x2="1210" y2="440"/><line x1="1265" y1="0" x2="1265" y2="440"/><line x1="1320" y1="0" x2="1320" y2="440"/><line x1="1375" y1="0" x2="1375" y2="440"/><line x1="1430" y1="0" x2="1430" y2="440"/><line x1="1485" y1="0" x2="1485" y2="440"/><line x1="1540" y1="0" x2="1540" y2="440"/><line x1="1595" y1="0" x2="1595" y2="440"/><line x1="1650" y1="0" x2="1650" y2="440"/></g>
+<path id="w0" class="wire" d="M334,220 C660,220 800,62 1166,62"/>
+<path id="w1" class="wire" d="M334,220 C660,220 841,125.2 1207,125.2"/>
+<path id="w2" class="wire" d="M334,220 C660,220 867,188.4 1233,188.4"/>
+<path id="w3" class="wire" d="M334,220 C660,220 867,251.6 1233,251.6"/>
+<path id="w4" class="wire" d="M334,220 C660,220 841,314.8 1207,314.8"/>
+<path id="w5" class="wire" d="M334,220 C660,220 800,378 1166,378"/>
+<circle class="pulse" cx="300" cy="220" r="34">
+  <animate attributeName="r" dur="4.2s" begin="0s" repeatCount="indefinite" values="34;150"/>
+  <animate attributeName="opacity" dur="4.2s" begin="0s" repeatCount="indefinite" values="0.55;0"/>
+</circle>
+<circle class="pulse" cx="300" cy="220" r="34">
+  <animate attributeName="r" dur="4.2s" begin="1.4s" repeatCount="indefinite" values="34;150"/>
+  <animate attributeName="opacity" dur="4.2s" begin="1.4s" repeatCount="indefinite" values="0.55;0"/>
+</circle>
+<circle class="pulse" cx="300" cy="220" r="34">
+  <animate attributeName="r" dur="4.2s" begin="2.8s" repeatCount="indefinite" values="34;150"/>
+  <animate attributeName="opacity" dur="4.2s" begin="2.8s" repeatCount="indefinite" values="0.55;0"/>
+</circle>
+
+<circle class="core" cx="300" cy="220" r="34"/>
+<text class="hubtext" x="300" y="228" text-anchor="middle">EY</text>
+<text class="label" x="300" y="298" text-anchor="middle">PUBLISH ethan</text>
+<circle class="msg" r="5" opacity="0">
+  <animateMotion dur="4.2s" begin="0s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#w0"/></animateMotion>
+  <animate attributeName="opacity" dur="4.2s" begin="0s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;0.03;0.5;0.51;1"/>
+</circle>
+<circle class="trail" r="3" opacity="0">
+  <animateMotion dur="4.2s" begin="0.1s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#w0"/></animateMotion>
+  <animate attributeName="opacity" dur="4.2s" begin="0.1s" repeatCount="indefinite" values="0;0.5;0.5;0;0" keyTimes="0;0.03;0.5;0.51;1"/>
+</circle>
+<circle class="msg" r="5" opacity="0">
+  <animateMotion dur="4.2s" begin="0.7s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#w1"/></animateMotion>
+  <animate attributeName="opacity" dur="4.2s" begin="0.7s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;0.03;0.5;0.51;1"/>
+</circle>
+<circle class="trail" r="3" opacity="0">
+  <animateMotion dur="4.2s" begin="0.8s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#w1"/></animateMotion>
+  <animate attributeName="opacity" dur="4.2s" begin="0.8s" repeatCount="indefinite" values="0;0.5;0.5;0;0" keyTimes="0;0.03;0.5;0.51;1"/>
+</circle>
+<circle class="msg" r="5" opacity="0">
+  <animateMotion dur="4.2s" begin="1.4s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#w2"/></animateMotion>
+  <animate attributeName="opacity" dur="4.2s" begin="1.4s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;0.03;0.5;0.51;1"/>
+</circle>
+<circle class="trail" r="3" opacity="0">
+  <animateMotion dur="4.2s" begin="1.5s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#w2"/></animateMotion>
+  <animate attributeName="opacity" dur="4.2s" begin="1.5s" repeatCount="indefinite" values="0;0.5;0.5;0;0" keyTimes="0;0.03;0.5;0.51;1"/>
+</circle>
+<circle class="msg" r="5" opacity="0">
+  <animateMotion dur="4.2s" begin="2.1s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#w3"/></animateMotion>
+  <animate attributeName="opacity" dur="4.2s" begin="2.1s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;0.03;0.5;0.51;1"/>
+</circle>
+<circle class="trail" r="3" opacity="0">
+  <animateMotion dur="4.2s" begin="2.2s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#w3"/></animateMotion>
+  <animate attributeName="opacity" dur="4.2s" begin="2.2s" repeatCount="indefinite" values="0;0.5;0.5;0;0" keyTimes="0;0.03;0.5;0.51;1"/>
+</circle>
+<circle class="msg" r="5" opacity="0">
+  <animateMotion dur="4.2s" begin="2.8s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#w4"/></animateMotion>
+  <animate attributeName="opacity" dur="4.2s" begin="2.8s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;0.03;0.5;0.51;1"/>
+</circle>
+<circle class="trail" r="3" opacity="0">
+  <animateMotion dur="4.2s" begin="2.9s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#w4"/></animateMotion>
+  <animate attributeName="opacity" dur="4.2s" begin="2.9s" repeatCount="indefinite" values="0;0.5;0.5;0;0" keyTimes="0;0.03;0.5;0.51;1"/>
+</circle>
+<circle class="msg" r="5" opacity="0">
+  <animateMotion dur="4.2s" begin="3.5s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#w5"/></animateMotion>
+  <animate attributeName="opacity" dur="4.2s" begin="3.5s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;0.03;0.5;0.51;1"/>
+</circle>
+<circle class="trail" r="3" opacity="0">
+  <animateMotion dur="4.2s" begin="3.6s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.5;1" calcMode="linear"><mpath href="#w5"/></animateMotion>
+  <animate attributeName="opacity" dur="4.2s" begin="3.6s" repeatCount="indefinite" values="0;0.5;0.5;0;0" keyTimes="0;0.03;0.5;0.51;1"/>
+</circle>
+<g transform="translate(1180,62)">
+  <circle class="ring" r="9" opacity="0">
+    <animate attributeName="r" dur="4.2s" begin="0s" repeatCount="indefinite" values="9;9;22;22;9" keyTimes="0;0.5;0.5;0.8;1"/>
+    <animate attributeName="opacity" dur="4.2s" begin="0s" repeatCount="indefinite" values="0;0;0.9;0;0" keyTimes="0;0.5;0.5;0.8;1"/>
+  </circle>
+  <circle class="node" r="7" fill-opacity="0.35">
+    <animate attributeName="fill-opacity" dur="4.2s" begin="0s" repeatCount="indefinite" values="0.35;0.35;1;0.35;0.35" keyTimes="0;0.5;0.5;0.8;1"/>
+  </circle>
+  <text class="name" x="26" y="-2">wirefan</text>
+  <text class="sub" x="26" y="20">23,568 msg/s</text>
+</g>
+<g transform="translate(1221,125.2)">
+  <circle class="ring" r="9" opacity="0">
+    <animate attributeName="r" dur="4.2s" begin="0.7s" repeatCount="indefinite" values="9;9;22;22;9" keyTimes="0;0.5;0.5;0.8;1"/>
+    <animate attributeName="opacity" dur="4.2s" begin="0.7s" repeatCount="indefinite" values="0;0;0.9;0;0" keyTimes="0;0.5;0.5;0.8;1"/>
+  </circle>
+  <circle class="node" r="7" fill-opacity="0.35">
+    <animate attributeName="fill-opacity" dur="4.2s" begin="0.7s" repeatCount="indefinite" values="0.35;0.35;1;0.35;0.35" keyTimes="0;0.5;0.5;0.8;1"/>
+  </circle>
+  <text class="name" x="26" y="-2">TideWane</text>
+  <text class="sub" x="26" y="20">live on Steam</text>
+</g>
+<g transform="translate(1247,188.4)">
+  <circle class="ring" r="9" opacity="0">
+    <animate attributeName="r" dur="4.2s" begin="1.4s" repeatCount="indefinite" values="9;9;22;22;9" keyTimes="0;0.5;0.5;0.8;1"/>
+    <animate attributeName="opacity" dur="4.2s" begin="1.4s" repeatCount="indefinite" values="0;0;0.9;0;0" keyTimes="0;0.5;0.5;0.8;1"/>
+  </circle>
+  <circle class="node" r="7" fill-opacity="0.35">
+    <animate attributeName="fill-opacity" dur="4.2s" begin="1.4s" repeatCount="indefinite" values="0.35;0.35;1;0.35;0.35" keyTimes="0;0.5;0.5;0.8;1"/>
+  </circle>
+  <text class="name" x="26" y="-2">Scrappy AI</text>
+  <text class="sub" x="26" y="20">live on the App Store</text>
+</g>
+<g transform="translate(1247,251.6)">
+  <circle class="ring" r="9" opacity="0">
+    <animate attributeName="r" dur="4.2s" begin="2.1s" repeatCount="indefinite" values="9;9;22;22;9" keyTimes="0;0.5;0.5;0.8;1"/>
+    <animate attributeName="opacity" dur="4.2s" begin="2.1s" repeatCount="indefinite" values="0;0;0.9;0;0" keyTimes="0;0.5;0.5;0.8;1"/>
+  </circle>
+  <circle class="node" r="7" fill-opacity="0.35">
+    <animate attributeName="fill-opacity" dur="4.2s" begin="2.1s" repeatCount="indefinite" values="0.35;0.35;1;0.35;0.35" keyTimes="0;0.5;0.5;0.8;1"/>
+  </circle>
+  <text class="name" x="26" y="-2">atelier</text>
+  <text class="sub" x="26" y="20">in awesome-claude-code</text>
+</g>
+<g transform="translate(1221,314.8)">
+  <circle class="ring" r="9" opacity="0">
+    <animate attributeName="r" dur="4.2s" begin="2.8s" repeatCount="indefinite" values="9;9;22;22;9" keyTimes="0;0.5;0.5;0.8;1"/>
+    <animate attributeName="opacity" dur="4.2s" begin="2.8s" repeatCount="indefinite" values="0;0;0.9;0;0" keyTimes="0;0.5;0.5;0.8;1"/>
+  </circle>
+  <circle class="node" r="7" fill-opacity="0.35">
+    <animate attributeName="fill-opacity" dur="4.2s" begin="2.8s" repeatCount="indefinite" values="0.35;0.35;1;0.35;0.35" keyTimes="0;0.5;0.5;0.8;1"/>
+  </circle>
+  <text class="name" x="26" y="-2">Thryv</text>
+  <text class="sub" x="26" y="20">technology intern</text>
+</g>
+<g transform="translate(1180,378)">
+  <circle class="ring" r="9" opacity="0">
+    <animate attributeName="r" dur="4.2s" begin="3.5s" repeatCount="indefinite" values="9;9;22;22;9" keyTimes="0;0.5;0.5;0.8;1"/>
+    <animate attributeName="opacity" dur="4.2s" begin="3.5s" repeatCount="indefinite" values="0;0;0.9;0;0" keyTimes="0;0.5;0.5;0.8;1"/>
+  </circle>
+  <circle class="node" r="7" fill-opacity="0.35">
+    <animate attributeName="fill-opacity" dur="4.2s" begin="3.5s" repeatCount="indefinite" values="0.35;0.35;1;0.35;0.35" keyTimes="0;0.5;0.5;0.8;1"/>
+  </circle>
+  <text class="name" x="26" y="-2">jobcopilot</text>
+  <text class="sub" x="26" y="20">Claude API</text>
+</g>
+</svg>

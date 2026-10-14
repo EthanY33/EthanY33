@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero-banner.webp" alt="" width="100%">
+  <img src="assets/fanout.svg" alt="Animated diagram: messages fan out from Ethan to wirefan, TideWane, Scrappy AI, atelier, Thryv and jobcopilot" width="100%">
 </p>
 
 <h1 align="center">Ethan Yucetepe</h1>
