@@ -1,157 +1,83 @@
 <p align="center">
-  <a href="https://goneidle.com">
-    <video src="https://raw.githubusercontent.com/EthanY33/EthanY33/main/assets/hero.mp4"
-           width="900" muted autoplay loop playsinline>
-      <img src="assets/hero.webp" alt="Ethan Yucetepe" width="900">
-    </video>
-  </a>
+  <img src="assets/hero-banner.webp" alt="" width="100%">
 </p>
 
 <h1 align="center">Ethan Yucetepe</h1>
 
 <p align="center">
-  CS @ NJIT, graduating <b>December 2026</b>. I build systems: Go WebSocket infrastructure,<br>
-  Claude Code tooling, and full-stack web apps. On the side I run
-  <a href="https://goneidle.com"><b>goneIdle</b></a>, a one-person game studio, and ship products on Steam.<br>
-  <sub>Go · TypeScript · Python · React / Next.js · C# / Godot · WebSockets · Canvas 2D</sub>
+  CS at NJIT, graduating <b>December 2026</b>. I build backend systems and developer tooling,<br>
+  and I ship my own products: a game on Steam and an iOS app on the App Store.
 </p>
 
 <p align="center">
-  <a href="https://goneidle.com">goneidle.com</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:ethanyucetepe@gmail.com">ethanyucetepe@gmail.com</a>
-  &nbsp;·&nbsp;
+  <a href="https://ethanyucetepe.dev">ethanyucetepe.dev</a>
+  &nbsp;/&nbsp;
   <a href="https://www.linkedin.com/in/ethan-yucetepe/">LinkedIn</a>
+  &nbsp;/&nbsp;
+  <a href="mailto:ethanyucetepe@gmail.com">ethanyucetepe@gmail.com</a>
 </p>
 
 <p align="center">
-  <sub>Open to <b>SWE roles, new-grad, December 2026 cycle</b>. Best reached at the email above.</sub>
+  Open to new-grad SWE roles for the December 2026 cycle.
 </p>
 
-<p align="center">
-  <img src="assets/wave-divider.svg" alt="" width="900">
-</p>
+## Experience
 
-### Engineering
+- **Thryv**, Technology Intern, May to August 2026. Shipped a p95 < 300 ms latency gate for a Java 21 / Micronaut webhooks microservice: after each merge to main, CircleCI load-tests all 6 endpoints with k6. Merged fixes for 7 security findings across 3 repos.
+- **[Scrappy AI](https://scrappyai.app)**, Co-Founder, May 2026 to present. Co-launched a Swift 6 / SwiftUI iOS app that turns a fridge photo into ranked recipes, [live on the App Store](https://apps.apple.com/app/id6781905536) since August 2026. Wrote 186 of its 320 commits and grew the iOS suite from 784 to 1,169 tests.
+- **[goneIdle](https://goneidle.com)**, Founder and Developer, March 2026 to present. Shipped TideWane, a paid game, to Steam on Windows, macOS and Linux, then released 8 patches in 5 weeks with public patch notes.
+- **TemplateBreaker**, writing-analysis web app, June 2026 to present. Cut the AI-writing detector's false hard fails on 407 pre-2023 human blog posts from 177 (43%) to 18, and wrote concurrency-safe LLM spend caps in PL/pgSQL with advisory locks.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-  <a href="https://github.com/EthanY33/wirefan">
-    <img src="assets/social/wirefan.png" alt="wirefan" width="100%">
-  </a>
+## Featured work
 
-**[wirefan](https://github.com/EthanY33/wirefan)** &nbsp;<sub>Go · WebSockets</sub><br>
-Single-binary WebSocket fanout server. Channel pub/sub, HMAC-bound subscribe tokens, zero runtime dependencies, and a goroutine-leak invariant proven under 1000-connection churn. v1.0.1, [live demo](https://wirefan.ethanyucetepe.dev).
+### [wirefan](https://github.com/EthanY33/wirefan)
 
-</td>
-<td width="50%" valign="top">
-  <a href="https://github.com/EthanY33/jobcopilot">
-    <img src="assets/social/jobcopilot.png" alt="jobcopilot" width="100%">
-  </a>
+Single-binary WebSocket pub/sub server in Go. [Live demo](https://wirefan.ethanyucetepe.dev), [benchmarks](https://github.com/EthanY33/wirefan/blob/main/docs/BENCHMARKS.md).
 
-**[jobcopilot](https://github.com/EthanY33/jobcopilot)** &nbsp;<sub>Next.js · Supabase · Claude API</sub><br>
-Full-stack job-application copilot, v1.0.0. The Claude API drafts every part of an application; you review and ship. 7-stage kanban tracker, resume-variant generator, OAuth.
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-  <a href="https://github.com/EthanY33/atelier">
-    <img src="assets/atelier-demo.svg" alt="atelier in action" width="100%">
-  </a>
-
-**[atelier](https://github.com/EthanY33/atelier)** &nbsp;<sub>JS · Claude Code plugin</sub><br>
-Claude Code plugin, v1.1.0. Eight composable skills on a shared brand source of truth, plus a CLI and a GitHub Action. Dogfooded on goneidle.com.
-
-</td>
-<td width="50%" valign="top">
-  <a href="https://github.com/EthanY33/news-bias-analyzer">
-    <img src="assets/newsbias-demo.svg" alt="news-bias-analyzer in action" width="100%">
-  </a>
-
-**[news-bias-analyzer](https://github.com/EthanY33/news-bias-analyzer)** &nbsp;<sub>Python · Gemini</sub><br>
-CLI that compares how multiple outlets frame the same story, with sentiment and framing analysis across sources. v1.0.0.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-  <a href="https://github.com/EthanY33/PrivacyPulse">
-    <img src="assets/privacypulse-demo.svg" alt="PrivacyPulse intercepting a cookie banner" width="100%">
-  </a>
-
-**[PrivacyPulse](https://github.com/EthanY33/PrivacyPulse)** &nbsp;<sub>Chrome extension</sub><br>
-Intercepts cookie consent banners and surfaces what you are actually agreeing to before you click Accept All.
-
-</td>
-<td width="50%" valign="top">
-  <a href="https://github.com/EthanY33/trailer-tripwire">
-    <img src="assets/tripwire-demo.svg" alt="tripwire pre-ship audit" width="100%">
-  </a>
-
-**Pre-ship pattern checkers** &nbsp;<sub>JS · CLI</sub><br>
-[trailer-tripwire](https://github.com/EthanY33/trailer-tripwire) v1.0.0 (video), [copy-tripwire](https://github.com/EthanY33/copy-tripwire) (text), [screenshot-tripwire](https://github.com/EthanY33/screenshot-tripwire) (images). Catch measurable AI-default tells before reviewers do.
-
-</td>
-</tr>
-</table>
-
-<p align="center">
-  <img src="assets/wave-divider.svg" alt="" width="900">
-</p>
-
-### Shipped
-
-I run **[goneIdle](https://goneidle.com)**, a one-person game studio. I take products from prototype to a paid Steam listing on my own: engine, economy, audio, store, and site.
-
-<p align="center">
-  <a href="https://goneidle.com">
-    <video src="https://raw.githubusercontent.com/EthanY33/EthanY33/main/assets/one-semester-left.mp4"
-           width="900" muted autoplay loop playsinline>
-      <img src="assets/studio-banner.webp" alt="goneIdle studio reel" width="900">
-    </video>
-  </a>
-</p>
-
-<table>
-<tr>
-<td width="55%">
-  <a href="https://goneidle.com/tidewane">
-    <img src="assets/tidewane-loop.webp" alt="TideWane gameplay" width="100%">
-  </a>
-</td>
-<td width="45%" valign="middle">
-
-**[TideWane](https://goneidle.com/tidewane)** &nbsp;`v1.2.3`
-
-Deep-sea idle dungeon crawler. Live on Steam (Windows, Linux, macOS).
-
-<sub>3-layer prestige economy, 25-boss progression, Canvas 2D game loop, procedural Web Audio synthesis, native IPC bridge to a Godot WebView host, Steam achievements and cloud saves.</sub>
-
-<a href="https://goneidle.com/tidewane">
-  <img src="assets/now-shipping.svg" alt="Now shipping: TideWane v1.2.3 on Steam" height="36">
+<a href="https://github.com/EthanY33/wirefan/blob/main/docs/BENCHMARKS.md">
+  <img src="assets/wirefan-bench.png" alt="Bar chart from the wirefan benchmarks: mean time a publish spends in the broadcast call at 100, 1,000 and 5,000 connections. Sharded fanout takes roughly half the time of per-connection fanout at every scale." width="100%">
 </a>
 
-</td>
-</tr>
-</table>
+- **23,568 delivered msg/s** at 500 connections on 1 vCPU, with a client p99 of 6.68 ms. Separate runs held 5,000 concurrent connections. Every number traces to a raw run file in the repo.
+- Private channels use HMAC-SHA256 subscribe tokens bound to one connection and one channel, with a five-minute expiry and replay protection.
+- No goroutine leaks after 1,000 connections churn, checked by the test suite under the race detector in CI.
+- Prometheus metrics and pprof on a loopback admin listener, graceful drain, and checksum-verified upgrades that roll back on a failed health check.
 
-<p align="center">
-  <a href="https://goneidle.com/tidewane"><img src="assets/thumb-01_title_screen.webp" width="160" alt="Title"></a>
-  <a href="https://goneidle.com/tidewane"><img src="assets/thumb-02_diving_gameplay.webp" width="160" alt="Diving"></a>
-  <a href="https://goneidle.com/tidewane"><img src="assets/thumb-03_diving_combat.webp" width="160" alt="Combat"></a>
-  <a href="https://goneidle.com/tidewane"><img src="assets/thumb-04_psi_grid.webp" width="160" alt="PSI grid"></a>
-  <a href="https://goneidle.com/tidewane"><img src="assets/thumb-05_bestiary.webp" width="160" alt="Bestiary"></a>
-</p>
+### [TideWane](https://store.steampowered.com/app/4544780)
 
-<p align="center">
-  <img src="assets/wave-divider.svg" alt="" width="900">
-</p>
+Deep-sea idle dungeon crawler, sold on [Steam](https://store.steampowered.com/app/4544780) for Windows, macOS and Linux. I built it alone as [goneIdle](https://goneidle.com/tidewane): engine, economy, audio, store page and site.
 
-<p align="center">
-  <sub>Building at <a href="https://goneidle.com">goneidle.com</a>. Open to SWE roles for the December 2026 new-grad cycle.</sub>
-</p>
+<a href="https://store.steampowered.com/app/4544780">
+  <img src="assets/tidewane-loop.webp" alt="TideWane gameplay: a diver descending through a deep-sea dungeon" width="100%">
+</a>
+
+- React 18 game client embedded in a Godot 4 / C# host over a 10-type IPC protocol that carries saves and Steam achievements.
+- Canvas 2D game loop, procedural Web Audio synthesis, a 3-layer prestige economy and 25 bosses.
+- Opt-out telemetry on Cloudflare Workers and D1 that stores no Steam ID or IP and deletes on request, covered by 52 tests.
+- Root-caused 2 silent production bugs, including an ID mismatch that had kept every player's achievements off Steam.
+
+### [atelier](https://github.com/EthanY33/atelier)
+
+Claude Code plugin for design automation. One `brand.json` drives eight skills: design tokens, social cards, icons, responsive images, HTML-to-video, an accessibility audit and a 65-rule runtime UX audit.
+
+<a href="https://github.com/EthanY33/atelier">
+  <img src="assets/atelier-propagation.webp" alt="atelier: changing one background color in brand.json and regenerating updates the social card, the app icon and the CSS token together" width="100%">
+</a>
+
+- Listed in [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) (55K stars) under Design and UI/UX.
+- Ships as a plugin, a CLI and a GitHub Action. 1,205 tests pass in CI on Ubuntu, macOS and Windows.
+- Its HTML-to-video recorder runs on a virtual clock that steps timers, requestAnimationFrame, CSS and SVG animations to each frame time.
+
+## More projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| [jobcopilot](https://github.com/EthanY33/jobcopilot) | Job-application copilot. Four Claude API routes parse PDF resumes and job posts, then draft cover letters and bullets with prompt caching. | Next.js, Supabase, Prisma, Claude API |
+| [leftoff](https://github.com/EthanY33/leftoff) | Claude Code plugin. `/leftoff` saves a session log, and the next session starts with it. | JavaScript |
+| [trailer-tripwire](https://github.com/EthanY33/trailer-tripwire), [copy-tripwire](https://github.com/EthanY33/copy-tripwire), [screenshot-tripwire](https://github.com/EthanY33/screenshot-tripwire) | Three audit CLIs and Git hooks that block fade-heavy trailers, AI-cliche copy and off-spec Steam images. | Node.js, ffmpeg |
+| [PrivacyPulse](https://github.com/EthanY33/PrivacyPulse) | Chrome extension that intercepts cookie consent banners and shows what you are agreeing to before you click Accept All. | JavaScript |
+| [news-bias-analyzer](https://github.com/EthanY33/news-bias-analyzer) | CS485 coursework. CLI that compares how several outlets frame the same story. | Python, Gemini |
+
+## Stack
+
+TypeScript, JavaScript, Java, Go, Swift, Python, SQL. Node.js, PostgreSQL, Supabase, React, Next.js, SwiftUI, Godot 4 (C#). Docker, GitHub Actions, CircleCI, Terraform.
